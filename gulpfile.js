@@ -55,6 +55,11 @@ gulp.task('copy', function(){
     .pipe(gulp.dest('build'));
 });
 
+gulp.task('copyBootstrapJS', function(){
+  return gulp.src(['node_modules/bootstrap-sass/assets/javascripts/*.js'])
+    .pipe(gulp.dest('build/js'));
+});
+
 gulp.task('clean', function(){
   return del('build/img');
 });
@@ -74,7 +79,7 @@ gulp.task('images', function() {
 });
 
 gulp.task('build', function(fn){
-  run('clean', 'copy', 'images', 'style', fn);
+  run('clean', 'copy', 'copyBootstrapJS', 'images', 'style', fn);
 });
 
 gulp.task('server', function(){
