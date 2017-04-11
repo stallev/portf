@@ -1,0 +1,11 @@
+.works{
+  &__example{
+    box-sizing: border-box;
+  }
+  &__slider{
+    padding: 0;
+  }
+  &__slider-item{
+    box-sizing: border-box;
+  }
+}
