@@ -1,0 +1,20 @@
+.footer{
+  &__upper{
+    background-color: $footer__upp-bgColor;
+  }
+  &__bottom{
+    background-color: $footer__bott-bgColor;
+  }
+  &__bottom-copyright{
+    padding: 0;
+    margin: 0;
+    color: $footer__bott-contentColor;
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+    font-size: $font-size-sm14;
+    font-weight: 400;
+    line-height: $font-size-md22;
+  }
+  &__bottom-nav{
+    padding: 0;
+  }
+}

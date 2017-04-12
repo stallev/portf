@@ -9,9 +9,9 @@
 <body class="body">
   <header class="header">
     <section class="header__upper">
-      <div class="container">
+      <div class="container container--header-upper">
         <div class="row">
-          <div class="col-md-2 header__upper-contacts contacts">
+          <div class="col-md-3 header__upper-contacts contacts">
             <a href="mailto:info@reen.com" class="contacts__email">
               info@reen.com
             </a>
@@ -19,7 +19,7 @@
               +00 (123) 456 78 90
             </a>
           </div>
-          <div class="col-md-2 header__upper-social social">
+          <div class="col-md-2 col-md-offset-7 header__upper-social social">
             <a href="#" class="social__icon">
               <img src="img/icon-s-facebook.png" alt="" class="social_icon-image">
             </a>
@@ -43,19 +43,21 @@
       </div>
     </section>
     <section class="header__middle">
-      <div class="container">
+      <div class="container container--header-middle">
         <div class="row">
           <div class="col-md-2 logo">
-            <a href="" class="logo__link"></a>
+            <a href="" class="logo__link">
+              <img src="img/logo-header.png" alt="" class="logo__link-image">
+            </a>
           </div>
           <div class="col-md-8 nav">
-            <a href="#" class="nav__item">home</a>
-            <a href="#" class="nav__item">portfolio</a>
-            <a href="#" class="nav__item">blog</a>
-            <a href="#" class="nav__item">pages</a>
-            <a href="#" class="nav__item">features</a>
-            <a href="#" class="nav__item">mega menu</a>
-            <a href="#" class="nav__item">contact</a>
+            <a href="#" class="nav__item nav__item--header-nav">home</a>
+            <a href="#" class="nav__item nav__item--header-nav">portfolio</a>
+            <a href="#" class="nav__item nav__item--header-nav">blog</a>
+            <a href="#" class="nav__item nav__item--header-nav">pages</a>
+            <a href="#" class="nav__item nav__item--header-nav">features</a>
+            <a href="#" class="nav__item nav__item--header-nav">mega menu</a>
+            <a href="#" class="nav__item nav__item--header-nav">contact</a>
           </div>
           <div class="col-md-2 search">
             <form action="" method="get" class="search__form">
@@ -71,7 +73,7 @@
     <section class="header__bottom">
       <div class="container">
         <div class="row">
-          <div class="col-sm-10 page-title">
+          <div class="col-sm-10 col-md-offset-1 page-title">
             <h1 class="page-title__text">made for designers</h1>
             <p class="page-title__description">
               Create your online portfolio in minutes with the professionally and lovingly designed REEN website template. Customize your site with versatile and easy to use features.
@@ -85,7 +87,7 @@
     <section class="features">
       <div class="container">
         <div class="row">
-          <div class="col-md-8 section-header">
+          <div class="col-md-8 col-md-offset-2 section-header">
             <h2 class="section-header__title">
               beautiful. clean. responsive.
             </h2>
@@ -96,13 +98,13 @@
         </div>
         <div class="row">
           <div class="col-md-12 features__list">
-            <article class="col-md-3 features__item">
+            <article class="col-md-4 features__item features__item--passion">
               <h3 class="features__item-title">passion</h3>
               <p class="features__item-description">
                 Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.
               </p>
             </article>
-            <article class="col-md-3 features__item">
+            <article class="col-md-4 features__item features__item--creativity">
               <h3 class="features__item-title">
                 creativity
               </h3>
@@ -110,7 +112,7 @@
                 Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.
               </p>
             </article>
-            <article class="col-md-3 features__item">
+            <article class="col-md-4 features__item features__item--quality">
               <h3 class="features__item-title">
                 quality
               </h3>
@@ -125,7 +127,7 @@
     <section class="works">
       <div class="container">
         <div class="row">
-          <div class="col-md-8 section-header__header">
+          <div class="col-md-8 col-md-offset-2 section-header">
             <h2 class="section-header__title">
               Check out our latest works
             </h2>
@@ -137,21 +139,25 @@
         <div class="row">
           <div class="col-md-6 works__example">
             <img class="works__example-image" src="img/work1@1x.jpg"></img>
-            <p class="works__example__description">
-              Grand Motel gets an identity brushup
-            </p>
-            <span class="work__example-identity">
+            <div class="works__example-description">
+              <p class="works__example-title">
+                Grand Motel gets an identity brushup
+              </p>
+              <span class="works__example-identity">
               Identity
             </span>
+            </div>
           </div>
           <div class="col-md-6 works__example">
             <img class="works__example-image" src="img/work2@1x.jpg"></img>
-            <p class="works__example__description">
-              Fresh branding for a creative startup
-            </p>
-            <span class="work__example-identity">
+            <div class="works__example-description">
+              <p class="works__example-title">
+                Fresh branding for a creative startup
+              </p>
+              <span class="works__example-identity">
               Identity
             </span>
+            </div>
           </div>
         </div>
         <div class="row">
@@ -175,7 +181,7 @@
     <section class="cooperation">
       <div class="container">
         <div class="row">
-          <div class="col-md-8 section-header">
+          <div class="col-md-8 col-md-offset-2 section-header">
             <h2 class="section-header__title">
               Want to work with us?
             </h2>
@@ -189,10 +195,10 @@
     </section>
   </main>
   <footer class="footer">
-    <section class="footer__upper">
+    <div class="footer__upper">
       <div class="container">
         <div class="row">
-          <div class="col-md-3 footer__company company-info">
+          <article class="col-md-3 company-info">
             <h3 class="company-info__title">
               who we are
             </h3>
@@ -207,33 +213,31 @@
             <a href="#" class="company-info__link-more">
               More about us
             </a>
-          </div>
-          <div class="col-md-3 footer__works latest-works">
-            <div class="row">
-              <h3 class="latest-works__title">
-                latest works
-              </h3>
-              <div class="col-sm-6 latest-works__links">
-                <a href="" class="latest-works__link">
-                  <img src="img/work-footer-1@1x.jpg" alt="" class="latest-works__image">
-                </a>
-                <a href="" class="latest-works__link">
-                  <img src="img/work-footer-2@1x.jpg" alt="" class="latest-works__image">
-                </a>
-                <a href="" class="latest-works__link">
-                  <img src="img/work-footer-3@1x.jpg" alt="" class="latest-works__image">
-                </a>
-                <a href="" class="latest-works__link">
-                  <img src="img/work-footer-4@1x.jpg" alt="" class="latest-works__image">
-                </a>
-              </div>
+          </article>
+          <article class="col-md-3 company-info">
+            <h3 class="company-info__title">
+              latest works
+            </h3>
+            <div class="col-sm-12 company-info__work-links">
+              <a href="" class="company-info__work-link">
+                <img src="img/work-footer-1@1x.jpg" alt="" class="latest-works__image">
+              </a>
+              <a href="" class="company-info__work-link">
+                <img src="img/work-footer-2@1x.jpg" alt="" class="latest-works__image">
+              </a>
+              <a href="" class="company-info__work-link">
+                <img src="img/work-footer-3@1x.jpg" alt="" class="latest-works__image">
+              </a>
+              <a href="" class="company-info__work-link">
+                <img src="img/work-footer-4@1x.jpg" alt="" class="latest-works__image">
+              </a>
             </div>
-          </div>
-          <div class="col-md-3 footer__contacts contacts">
-            <h3 class="contacts__title">
+          </article>
+          <article class="col-md-3 company-info contacts">
+            <h3 class="company-info__title">
               get in touch
             </h3>
-            <p class="contacts__description">
+            <p class="company-info__description">
               Doloreiur quia commolu ptatemp dolupta oreprerum tibusam eumenis et consent accullignis dentibea autem inisita.
             </p>
             <span class="contacts__address">
@@ -245,40 +249,40 @@
             <a href="tel:+1234567890" class="contacts_tel">
               +00 (123) 456 78 90
             </a>
-          </div>
-          <div class="col-md-3 footer__subscribe subscribe">
-            <h3 class="subscribe__title">
+          </article>
+          <article class="col-md-3 company-info subscribe">
+            <h3 class="company-info__title">
               free update
             </h3>
-            <p class="subscribe__description">
+            <p class="company-info__description">
               Conecus iure posae volor remped modisaut lor volor accabora incim resto explabo.
             </p>
             <form action="" method="get" class="subscribe__form">
               <input type="email" placeholder="enter your email address" required>
               <button type="submit" value="subscribe"></button>
             </form>
-          </div>
+          </article>
         </div>
       </div>
-    </section>
-    <section class="footer__bottom">
-      <div class="container">
+    </div>
+    <div class="footer__bottom">
+      <div class="container container--footer-bottom">
         <div class="row">
-          <p class="col-md-2 footer__bottom-copyright">
+          <p class="col-md-3 footer__bottom-copyright">
             &copy; 2014 REEN. All rights reserved.
           </p>
-          <div class="col-md-4 footer__bottom-nav nav">
-            <a href="#" class="nav__item">home</a>
-            <a href="#" class="nav__item">portfolio</a>
-            <a href="#" class="nav__item">blog</a>
-            <a href="#" class="nav__item">pages</a>
-            <a href="#" class="nav__item">features</a>
-            <a href="#" class="nav__item">mega menu</a>
-            <a href="#" class="nav__item">contact</a>
+          <div class="col-md-4 col-md-offset-5 footer__bottom-nav nav">
+            <a href="#" class="nav__item nav__item--footer-nav">home</a>
+            <a href="#" class="nav__item nav__item--footer-nav">portfolio</a>
+            <a href="#" class="nav__item nav__item--footer-nav">blog</a>
+            <a href="#" class="nav__item nav__item--footer-nav">pages</a>
+            <a href="#" class="nav__item nav__item--footer-nav">features</a>
+            <a href="#" class="nav__item nav__item--footer-nav">mega menu</a>
+            <a href="#" class="nav__item nav__item--footer-nav">contact</a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   </footer>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>

@@ -1,0 +1,8 @@
+.contacts{
+  color: $header__contentColor;
+  font-size: $font-size-sm12;
+  font-weight: 400;
+  & a{
+    text-decoration: none;
+  }
+}

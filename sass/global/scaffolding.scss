@@ -1,3 +1,11 @@
 img{
   max-width: 100%;
 }
+.row>div,
+.row>article{
+  box-sizing: border-box;
+}
+.container>div,
+.container>article{
+  box-sizing: border-box;
+}

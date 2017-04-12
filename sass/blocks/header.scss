@@ -1,11 +1,31 @@
 .header{
   &__upper{
-
+    box-shadow: 0 1px 0 #e6e9ed;
+    background-color: $header__upp-bgColor;
+  }
+  &__upper-contacts{
+    padding: 0;
+  }
+  &__upper-social{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+  &__upper-contacts a{
+    color: $header__contentColor;
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+    font-size: $font-size-sm12;
+    font-weight: 400;
+    text-decoration: none;
   }
   &__middle{
 
   }
   &__bottom{
-
+    box-sizing: border-box;
+    padding: 200px 0 200px;
+    background-color: $footer__bott-bgColor;
+    background-image: url(../img/bg-header-image@1x.jpg);
+    background-size: cover;
   }
 }
