@@ -28,10 +28,16 @@
     line-height: $font-size-md22;
     text-align: center;
   }
+  &__example-image{
+    display: block;
+    margin: 0 auto;
+  }
   &__slider{
     padding: 0;
+    text-align: center;
   }
   &__slider-item{
+    display: inline-block;
     box-sizing: border-box;
   }
 }

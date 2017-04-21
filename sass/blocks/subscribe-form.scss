@@ -1,0 +1,39 @@
+.subscribe-form{
+  position: relative;
+  font-family: 'Source Sans Pro', 'Arial', sans-serif;
+  &__field{
+    height: 35px;
+    width: 100%;
+    border: 0;
+    padding-left: 5px;
+    padding-right: 100px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    box-sizing: border-box;
+    font-size: $font-size-sm14;
+    line-height: $lh-md25;
+    color: $subscribe_field-textColor;
+    background-color: $subscribe_field-bgColor;
+    text-transform: inherit;
+    &:focus {
+
+    }
+  }
+  &__submit{
+    position: absolute;
+    content: '';
+    width: 70px;
+    height: 25px;
+    box-sizing: border-box;
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 2px;
+    background-color: $button-color;
+    color: $body-color;
+    text-transform: uppercase;
+    top: 5px;
+    right: 10px;
+    border: none;
+    font-size: 10px;
+    font-weight: 700;
+  }
+}

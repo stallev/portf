@@ -4,5 +4,14 @@
   &__button{
     display: block;
     margin: 0 auto;
+    border: none;
+    box-sizing: border-box;
+    padding: 20px 26px;
+    background-color: $button-color;
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+    font-size: $font-size-sm15;
+    font-weight: 700;
+    color: $body-color;
+    text-transform: uppercase;
   }
 }
