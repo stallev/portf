@@ -627,15 +627,8 @@ input {
     padding: 0 0 0; }
   .company-info__work-links {
     padding: 0; }
-  .company-info .contacts__email,
-  .company-info .contacts__address,
-  .company-info .contacts_tel {
-    display: block;
-    color: #a3b1bf;
-    font-family: 'Source Sans Pro', 'Arial', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    text-decoration: none; }
+  .company-info__works-image {
+    width: 125px; }
   .company-info__link-more {
     font-family: 'Source Sans Pro', 'Arial', sans-serif;
     color: #a3b1bf;
@@ -647,9 +640,18 @@ input {
   color: #506a85;
   font-size: 12px;
   font-weight: 400; }
-  .contacts__address, .contacts__email, .contacts__tel {
-    margin-bottom: 5px; }
+  .contacts__address, .contacts__tel {
+    font-size: 0px; }
+  .contacts__email {
+    margin-top: 10px; }
   .contacts a {
+    text-decoration: none; }
+  .contacts__email, .contacts__address, .contacts__tel {
+    display: block;
+    color: #a3b1bf;
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
     text-decoration: none; }
 
 .container {
