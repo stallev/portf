@@ -3,11 +3,23 @@
   font-size: $font-size-sm12;
   font-weight: 400;
   &__address,
-  &__email,
   &__tel{
-    margin-bottom: 5px;
+    font-size: 0px;
+  }
+  &__email{
+    margin-top: 10px;
   }
   & a{
+    text-decoration: none;
+  }
+  &__email,
+  &__address,
+  &__tel{
+    display: block;
+    color: $footer__upp-contentColor;
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+    font-size: $font-size-sm14;
+    font-weight: 400;
     text-decoration: none;
   }
 }

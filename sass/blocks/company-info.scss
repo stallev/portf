@@ -22,17 +22,7 @@
     padding: 0;
   }
   &__works-image{
-
-  }
-  & .contacts__email,
-  & .contacts__address,
-  & .contacts_tel{
-    display: block;
-    color: $footer__upp-contentColor;
-    font-family: 'Source Sans Pro', 'Arial', sans-serif;
-    font-size: $font-size-sm14;
-    font-weight: 400;
-    text-decoration: none;
+    width: 125px;
   }
   &__link-more{
     font-family: 'Source Sans Pro', 'Arial', sans-serif;
