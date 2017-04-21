@@ -10,23 +10,16 @@
     background-color: $body-color;
     padding: 25px 0;
   }
-  &__example-title{
-    margin: 0;
+  &__example-link{
+    display: block;
+    margin: 0 auto;
     margin-bottom: 10px;
     color: $header__contentColor;
     font-size: $font-size-sm20;
     font-weight: 700;
     line-height: $font-size-md26;
     text-align: center;
-  }
-  &__example-identity{
-    display: block;
-    color: $section__header-descr-Color;
-    font-family: 'Source Sans Pro', 'Arial', sans-serif;;
-    font-size: $font-size-sm14;
-    font-weight: 400;
-    line-height: $font-size-md22;
-    text-align: center;
+    text-decoration: none;
   }
   &__example-image{
     display: block;
