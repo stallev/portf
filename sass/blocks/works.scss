@@ -1,0 +1,43 @@
+.works{
+  padding: 80px 0;
+  box-sizing: border-box;
+  background-color: $section-bgColor;
+  &__example{
+    box-sizing: border-box;
+    margin-bottom: 70px;
+  }
+  &__example-description{
+    background-color: $body-color;
+    padding: 25px 0;
+  }
+  &__example-title{
+    margin: 0;
+    margin-bottom: 10px;
+    color: $header__contentColor;
+    font-size: $font-size-sm20;
+    font-weight: 700;
+    line-height: $font-size-md26;
+    text-align: center;
+  }
+  &__example-identity{
+    display: block;
+    color: $section__header-descr-Color;
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;;
+    font-size: $font-size-sm14;
+    font-weight: 400;
+    line-height: $font-size-md22;
+    text-align: center;
+  }
+  &__example-image{
+    display: block;
+    margin: 0 auto;
+  }
+  &__slider{
+    padding: 0;
+    text-align: center;
+  }
+  &__slider-item{
+    display: inline-block;
+    box-sizing: border-box;
+  }
+}

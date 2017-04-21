@@ -1,0 +1,24 @@
+.nav{
+  display: flex;
+  justify-content: space-around;
+  &__item{
+    display: block;
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+    text-decoration: none;
+    &--footer-nav{
+      margin-right: 10px;
+      color: $footer__bott-contentColor;
+      font-size: $font-size-sm14;
+      font-weight: 400;
+      line-height: $font-size-md22;
+      text-transform: capitalize;
+    }
+    &--header-nav{
+      color: $header__contentColor;;
+      font-size: $font-size-sm15;
+      font-weight: 700;
+      text-transform: uppercase;
+      line-height: 35px;
+    }
+  }
+}

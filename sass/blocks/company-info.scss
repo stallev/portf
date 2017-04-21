@@ -1,0 +1,44 @@
+.company-info{
+  box-sizing: border-box;
+  &__title{
+    line-height: $font-size-md22;
+    color: $body-color;
+    font-size: $font-size-sm16;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  &__description{
+    color: $footer__upp-contentColor;
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+    font-size: $font-size-sm14;
+    font-weight: 400;
+    line-height: $lh-md25;
+  }
+  &__work-link{
+    display: inline-block;
+    padding: 0 0 0;
+  }
+  &__work-links{
+    padding: 0;
+  }
+  &__works-image{
+
+  }
+  & .contacts__email,
+  & .contacts__address,
+  & .contacts_tel{
+    display: block;
+    color: $footer__upp-contentColor;
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+    font-size: $font-size-sm14;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  &__link-more{
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+    color: $footer__upp-contentColor;
+    font-size: $font-size-sm15;
+    font-weight: 700;
+    text-decoration: none;
+  }
+}

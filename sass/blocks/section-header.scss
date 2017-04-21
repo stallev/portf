@@ -1,0 +1,20 @@
+.section-header{
+  margin-bottom: 35px;
+  &__title{
+    margin: 0;
+    margin-bottom: 10px;
+    color: $header__contentColor;
+    font-size: $font-size-lg44;
+    font-weight: 700;
+    line-height: $lh-lg54;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  &__description{
+    color: $section__header-descr-Color;
+    font-size: $font-size-md22;
+    font-weight: 400;
+    line-height: $lh-md34;
+    text-align: center;
+  }
+}

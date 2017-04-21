@@ -1,0 +1,16 @@
+.container{
+  padding-left: 15px;
+  padding-right: 15px;
+  &--footer-bottom{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  &--header-upper{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  &--header-middle{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
